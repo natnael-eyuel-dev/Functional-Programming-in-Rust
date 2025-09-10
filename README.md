@@ -39,25 +39,26 @@ Functional programming is a programming paradigm where computation is treated as
 ## Project Structure
 
 ```
-src/
-├── main.rs
-├── topics/
-│   ├── [builder_pattern_topic.rs](./src/topics/builder_pattern_topic.rs)
-│   ├── [closure_topic.rs](./src/topics/closure_topic.rs)
-│   ├── [currying_topic.rs](./src/topics/currying_topic.rs)
-│   ├── [enum_topic.rs](./src/topics/enum_topic.rs)
-│   ├── [function_composition_topic.rs](./src/topics/function_composition_topic.rs)
-│   ├── [functional_programming.rs](./src/topics/functional_programming.rs)
-│   ├── [lambda_topic.rs](./src/topics/lambda_topic.rs)
-│   ├── [lazy_evaluation_topic.rs](./src/topics/lazy_evaluation_topic.rs)
-│   ├── [list_comprehension_topic.rs](./src/topics/list_comprehension_topic.rs)
-│   ├── [map_topic.rs](./src/topics/map_topic.rs)
-│   ├── [partial_composition_topic.rs](./src/topics/partial_composition_topic.rs)
-│   ├── [pattern_matching_topic.rs](./src/topics/pattern_matching_topic.rs)
-│   ├── [pure_function_topic.rs](./src/topics/pure_function_topic.rs)
-│   ├── [recursion_topic.rs](./src/topics/recursion_topic.rs)
-│   ├── [sum_topic.rs](./src/topics/sum_topic.rs)
-│   └── [switch_topic.rs](./src/topics/switch_topic.rs)
+- [main.rs](src/main.rs)
+- topics
+  - [builder_pattern_topic.rs](src/topics/builder_pattern_topic.rs)
+  - [closure_topic.rs](src/topics/closure_topic.rs)
+  - [currying_topic.rs](src/topics/currying_topic.rs)
+  - [enum_topic.rs](src/topics/enum_topic.rs)
+  - [function_composition_topic.rs](src/topics/function_composition_topic.rs)
+  - [functional_programming.rs](src/topics/functional_programming.rs)
+  - [lambda_topic.rs](src/topics/lambda_topic.rs)
+  - [lazy_evaluation_topic.rs](src/topics/lazy_evaluation_topic.rs)
+  - [list_comprehension_topic.rs](src/topics/list_comprehension_topic.rs)
+  - [map_topic.rs](src/topics/map_topic.rs)
+  - [partial_composition_topic.rs](src/topics/partial_composition_topic.rs)
+  - [pattern_matching_topic.rs](src/topics/pattern_matching_topic.rs)
+  - [pure_function_topic.rs](src/topics/pure_function_topic.rs)
+  - [recursion_topic.rs](src/topics/recursion_topic.rs)
+  - [sum_topic.rs](src/topics/sum_topic.rs)
+  - [switch_topic.rs](src/topics/switch_topic.rs)
+
+```
 
 * Each file corresponds to a topic discussed in class.
 * `main.rs` demonstrates all examples together.
